@@ -102,19 +102,18 @@ RL-CoT Agent Thoughts:
 - Calculated risk probability: 0.05. Low risk.
 
 Example output:
-Base CreditRiskAgent Performance:
-Accuracy: 0.9090
 
 Classification Report:
 
-          precision   recall    f1-score   support
-0            0.91      0.98      0.94      5072
-1            0.90      0.67      0.76      1445
-
-accuracy                         0.91      6517
-
-macro avg    0.90      0.82      0.85      6517
-weighted avg 0.91      0.91      0.90      6517
+RL-Base CreditRiskAgent Performance:
+Accuracy: 0.9090
+Classification Report:
+precision    recall  f1-score   support
+0       0.91      0.98      0.94      5072
+1       0.90      0.67      0.76      1445
+accuracy                           0.91      6517
+macro avg       0.90      0.82      0.85      6517
+weighted avg       0.91      0.91      0.90      6517
 
 ## Future Improvements
 
@@ -127,7 +126,7 @@ weighted avg 0.91      0.91      0.90      6517
 
 ## Access the Dataset on Kaggle
 
-[Credit Risk Dataset]: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset?resource=download)
+Credit Risk Dataset: (https://www.kaggle.com/datasets/laotse/credit-risk-dataset?resource=download)
 
 ## Disclaimer
 
